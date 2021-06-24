@@ -32,7 +32,7 @@ os.system(
 
 os.system(
     'docker run --user 1000 --rm -v $PWD:/local/ debian:10 '
-    "sed -i 's/from openapi_client.model.unknownbasetype import UNKNOWNBASETYPE/"
+    "sed -i 's/from grocy.model.unknownbasetype import UNKNOWNBASETYPE/"
     "UNKNOWN_BASE_TYPE = object\\(\\)/'"
     " /local/grocy/api/generic_entity_interactions_api.py"
 )

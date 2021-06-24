@@ -28,7 +28,7 @@ from grocy.model.exposed_entity_not_including_not_deletable import ExposedEntity
 from grocy.model.exposed_entity_not_including_not_editable import ExposedEntityNotIncludingNotEditable
 from grocy.model.exposed_entity_not_including_not_listable import ExposedEntityNotIncludingNotListable
 from grocy.model.inline_response2001 import InlineResponse2001
-from grocy.model.unknownbasetype import UNKNOWNBASETYPE
+UNKNOWN_BASE_TYPE = object()
 
 
 class GenericEntityInteractionsApi(object):
